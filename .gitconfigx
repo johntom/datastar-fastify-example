@@ -1,0 +1,5 @@
+[user]
+    name =johntom
+    email = [jrt@gtz.com]
+[credential “https://github.com”]
+    helper = dtkeyring
