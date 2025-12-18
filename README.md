@@ -11,3 +11,8 @@
 -  npm run start
 -  npm run startTodo
 -  npm run startHelloWorld
+
+## Tests
+-  npm run test
+-  npm run test:basic
+-  npm run test:todo
