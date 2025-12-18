@@ -13,8 +13,11 @@
 'use strict';
 
 const Fastify = require('fastify');
-// const { datastar, PostSSE, DeleteSSE, PatchMode, escapeHtml } = require('../lib/index');
-const { datastar, PostSSE, PutSSE, PatchSSE, DeleteSSE,  PatchMode,escapeHtml } = require("@johntom/datastar-fastify-sdk");
+
+// possible const { datastar, GetSSE, PostSSE, PutSSE, PatchSSE, DeleteSSE, PatchMode ,escapeHtml} = require("@johntom/datastar-fastify-sdk");
+
+ const { datastar, PostSSE, DeleteSSE, PatchMode, escapeHtml } = require('@johntom/datastar-fastify-sdk');
+
 
 const app = Fastify({ logger: true });
 app.register(datastar);

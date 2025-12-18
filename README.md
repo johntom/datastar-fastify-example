@@ -1,5 +1,5 @@
 # Datastar Nodejs24-Fastify 5 with datastar-fastify-sdk example
-## Version 1.0.3
+## Version 1.0.4
 ## While i have followed datastar since the beginning, I never could get a good demo running with nodejs until this repo.
 ## there are three servers in this repo
 ## node server opens on http://127.0.0.1:3000 with signals, sse
