@@ -25,9 +25,9 @@ fastify.register(require('@fastify/static'), {
 // Register the Datastar plugin
 fastify.register(datastar);
 
-const port = 3002;
+const port = 3003;
 
-// Messages from CodePen example
+// Messages from CodePen example 
 const messages = [ 
   "Stop overcomplicating it.",
   "Backend controls state.",
@@ -142,13 +142,13 @@ fastify.get("/", async (request, reply) => {
 <script>
   // Messages from CodePen example - available to Datastar
   window.messages = [
-    "Stop overcomplicating it.",
-    "Backend controls state.",
-    "Props down, Events up.",
-    "Flamegraphs don't care about your feelings.",
-    "Practice yourself, for heaven's sake, in little things; and thence proceed to greater",
-    "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
-    "Be the change you want to see.",
+    "1 Stop overcomplicating it.",
+    "2 Backend controls state.",
+    "3 Props down, Events up.",
+    "4 Flamegraphs don't care about your feelings.",
+    "5 Practice yourself, for heaven's sake, in little things; and thence proceed to greater",
+    "6 Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+    "7 Be the change you want to see.",
     "https://data-star.dev/ 🚀",
   ];
 </script>
