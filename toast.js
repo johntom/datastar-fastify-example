@@ -65,7 +65,7 @@ fastify.get("/", async (request, reply) => {
 <div>
   <h1>Datastar Toast Notifications & Messages</h1>
   <p>
-    Based on from <a href="https://jsfiddle.net/jd1zk5t6/">jsfiddle</a> and  <a href="https://codepen.io/starfederation/pen/wBKPMPx" target="_blank">CodePen example</a><br>
+    Based on <a href="https://jsfiddle.net/jd1zk5t6/">jsfiddle</a> and  <a href="https://codepen.io/starfederation/pen/wBKPMPx" target="_blank">CodePen</a><br>
     Signal-free CSS + Datastar toasts with in/out animations, progress bar, and pause-on-hover.
   </p>
 

@@ -13,8 +13,8 @@
          "start": "node server.js",
          "startTodo": "node serverTodo.js",
          "startHelloWorld": "node helloworld.js",
-         "startToast": "nodemon toast.js",
-         "dev": "nodemon server.js",
+         "startToast": "node toast.js",
+         "dev": "node server.js",
          "test": "node run-all-tests.js",
          "test:basic": "node run-tests-basic.js",
          "test:todo": "node run-tests-todo.js"
