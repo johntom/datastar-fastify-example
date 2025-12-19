@@ -5,12 +5,14 @@
 ## node server opens on http://127.0.0.1:3000 with signals, sse
 ## node server opens on http://127.0.0.1:3001 has dupliated the todo demo on datastar website (edit fuction not working)
 ## node helloworld.js opens on http://127.0.0.1:3002 emulated go hello world test
+## node startToast provied links by authors for Toast and Messages
 
 
 ## Examples
 -  npm run start
 -  npm run startTodo
 -  npm run startHelloWorld
+-  npm run startToast
 
 ## Tests
 -  npm run test
